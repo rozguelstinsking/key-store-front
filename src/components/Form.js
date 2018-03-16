@@ -1,5 +1,18 @@
 import React from 'react';
 import TextField from 'material-ui/TextField';
+import RaisedButton from 'material-ui/RaisedButton';
+
+const divStyle = {
+  paddingTop: 30,
+  paddingLeft: 50,
+  color: 'red',
+  align:'right'
+};
+
+const styleButton = {
+  margin: 12,
+};
+
 
 export default class TextFieldExampleControlled extends React.Component {
 
@@ -20,7 +33,8 @@ export default class TextFieldExampleControlled extends React.Component {
 
   render() {
     return (
-      <div>
+      <div style={divStyle}>
+        <h1>Key store search</h1>
         <TextField
           id="text-field-name"
           value={this.state.value1}
@@ -32,6 +46,7 @@ export default class TextFieldExampleControlled extends React.Component {
           value={this.state.value2}
           onChange={this.handleChange}
         />
+        <RaisedButton style={styleButton} label='Enviar'/>
       </div>
     );
   }
