@@ -1,4 +1,4 @@
-  import React, { Component } from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import injectTapEventPlugin from 'react-tap-event-plugin';

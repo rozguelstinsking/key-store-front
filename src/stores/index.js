@@ -1,0 +1,1 @@
+import storeHello from './HelloStore'
