@@ -99,7 +99,7 @@ export default class TextFieldExampleControlled extends React.Component {
           value={this.state.environment}
           onChange={this.handleEnvironmentChange.bind(this)}
         />
-        <RaisedButton style={styleButton} onClick={this.handleClick} label='Enviar'/>
+        
       </div>
     );
   }
